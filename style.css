@@ -13,7 +13,7 @@ body{
 }
 .main{
     margin-top: 20px;
-    width: 450px;
+    width: 500px;
     background-color: rgba(60, 179, 113, 0.6);
     color: white;
     text-align: center;
@@ -85,6 +85,13 @@ body{
     margin-left: 5px;
     font-size: 19px;
     padding: 5px;
+}
+.error-message img{
+    margin: 3px;
+width: 200px;
+border-radius: 50px;
+align-items: center;
+text-align: center;
 }
 
 

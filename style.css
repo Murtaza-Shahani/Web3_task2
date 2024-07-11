@@ -93,5 +93,10 @@ border-radius: 50px;
 align-items: center;
 text-align: center;
 }
+#toggle-button{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 40px;
+}
 
 

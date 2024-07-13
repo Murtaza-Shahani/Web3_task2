@@ -17,18 +17,15 @@
       <input type="text" id="search-box-input" placeholder="Enter Location" />
       <button id="search-box-button" class="fa-solid fa-magnifying-glass"></button>
     </div>
+    
 
     <div class="weather-info">
       <i class="fa-solid fa-cloud"></i>
       <div class="weather-details">
         <h2><span id="temp">25°C</span></h2>
         <p id="city">New York</p>
-<!-- Toggle Button for Celsius and Fahrenheit -->
-<div class="toggle">
-  <button id="toggle-button" class="btn btn-secondary">Show in °F</button>
-</div>
-
-
+        <button id="toggle-button">Show in °F</button>
+    
         <div class="details">
           <div class="col">
             <i class="fa-solid fa-water"></i>
@@ -36,7 +33,6 @@
               <p id="humidity">50% Humidity</p>
             </div>
           </div>
-
           <div class="col">
             <i class="fa-solid fa-wind"></i>
             <div>
@@ -46,13 +42,14 @@
         </div>
       </div>
     </div>
-
+    
     <div id="error-message" class="error-message" style="display: none;">
       <h2 class="mt-2 mb-2">OOPS: City Not Found</h2>
       <img src="error.jpg" alt="404 Not Found" class="error"/>
     </div>
-
     
+    <div id="forecast" class="forecast"></div>
+
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <!-- External JS -->
